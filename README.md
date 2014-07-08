@@ -1,0 +1,4 @@
+snipmate.vim
+============
+
+snipmate.vim
