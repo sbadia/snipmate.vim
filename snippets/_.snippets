@@ -2,8 +2,6 @@
 # see honza/vim-snippets and SirVer/ultisnips
 
 snippet #header
-	# Author:: `system("git config user.name")` (<`system("git config user.email")`>)
-	# Date:: `system("ruby -e 'puts Time.now'")`
 snippet #wtfpl
 	#
 	#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
@@ -68,3 +66,5 @@ snippet #apache
 	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 	# See the License for the specific language governing permissions and
 	# limitations under the License.
+  # Author:: `system("git config user.name|tr -d '\n'")` (<`system("git config user.email|tr -d '\n'")`>)
+  # Date:: `system("ruby -e 'puts Time.now'")`
