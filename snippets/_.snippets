@@ -4,3 +4,17 @@
 snippet #header
   # Author:: `system("git config user.name|tr -d '\n'")` (<`system("git config user.email|tr -d '\n'")`>)
   # Date:: `system("ruby -e 'puts Time.now'")`
+
+snippet ddate
+    `strftime("%Y-%m-%d")`
+
+snippet dateutc
+abbr    with UTC
+    `strftime("%Y-%m-%d %T%z")`
+
+snippet dateunix
+abbr dateunix
+    `strftime("%Y-%m-%d %s")`
+
+snippet time
+    `strftime("%T UTC%z")`
